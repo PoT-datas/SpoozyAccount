@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android.support.design="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/labelArea"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <api.pot.text.xtv.XTextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_check_code_label"
+            android:gravity="center"
+            style="@style/TextXPLabel"
+            android:layout_marginLeft="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/colorGray"
+            android:layout_height="2dp"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/labelArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <api.pot.view.xl.XLayout
+            android:id="@+id/nameXL"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:xl_foregrounder_enabled="false"
+            app:xl_corner_rx="0"
+            app:xl_corner_ry="0"
+            app:xl_shadow_rad="@dimen/shadow_rad"
+            app:xl_shadow_dx="@dimen/shadow_dx"
+            app:xl_shadow_dy="@dimen/shadow_dy"
+            app:xl_padding="@dimen/shadow_padding"
+            app:xl_shadow_color="@color/colorDark"
+            android:background="@color/colorLight">
+            <api.pot.text.xtv.XTextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Map Object Category Name"
+                android:layout_gravity="center"
+                style="@style/TextXPS"/>
+        </api.pot.view.xl.XLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

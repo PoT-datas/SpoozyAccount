@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">SpoozyAccount</string>
+    <string name="title_activity_maps">TRAVEL GPS</string>
+
+    <string name="google_map_key">AIzaSyD-npBq4hP2-3yuzG-oYUQdjWCtdhNVIqs</string>
+    <string name="map_id">d642ec1854617981</string>
+
+    <string name="bertiland_corp_account">com.bertiland.corp.account</string>
+
+    <string name="welcome_msg">from Bertiland Corp</string>
+    <string name="company">Bertiland Corp</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="nav_home">nav home</string>
+    <string name="nav_search">nav search</string>
+    <string name="nav_notifications">nav notif</string>
+    <string name="font_fontFamily_medium">sans-serif</string>
+
+
+    <string name="phone">Numéro de téléphone (+237)</string>
+    <string name="cni">Numéro de CNI (recepissé)</string>
+    <string name="datenaiss">Date / Lieu de naissance (jj/mm/aa)</string>
+    <string name="localisation">Localisation (ville/quartier)</string>
+    <string name="welcome_revendeur">Le revendeur</string>
+    <string name="welcome_vendeur">Le vendeur</string>
+    <string name="welcome_inscription">Alors... T\'es nouveau?</string>
+    <string name="precision">Quel est ton type d\'abonnement?</string>
+    <string name="user_name">Nom d\'utilisateur</string>
+    <string name="confirm_pass">Confirmez votre mot de passe</string>
+    <string name="bt_vendeur">Vendeur</string>
+    <string name="bt_revendeur">Revendeur</string>
+    <string name="bt_acheteur">Acheteur</string>
+    <string name="mail">Addresse mail</string>
+    <string name="pass">Mot de passe</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="welcome_connexion">Vous revoilà</string>
+    <string name="preference">Je préfère juste visiter pour le moment.</string>
+    <string name="connexion">Connexion</string>
+    <string name="inscription">Inscription</string>
+    <string name="wc_msg">Connectes-toi au nouveau marché\nqui unifie le traditionnel… Au réel !</string>
+
+
+    <string name="login_welcome">Se Connecter</string>
+    <string name="login_forgot_pass">Mot de passe oublié? Ouais ...</string>
+    <string name="login_forgot_pass_link">Ouais ...</string>
+    <string name="login_id_type">Se connecter autrement.</string>
+    <string name="login_id_type_link">autrement.</string>
+    <string name="login_to_signup">Vous n\'avez pas de compte? S\'enregistrer</string>
+    <string name="login_to_signup_link">S\'enregistrer</string>
+
+    <string name="signup_welcome">Créer un compte</string>
+    <string name="signup_signup">Créer un compte</string>
+    <string name="signup_firstname">Prénom</string>
+    <string name="signup_name">Nom</string>
+    <string name="signup_to_login_down">Vous n\'êtes pas nouveau ? Se connecter</string>
+    <string name="signup_to_login_down_link">Se connecter</string>
+
+    <string name="system_backpress_onclick_msg">Double cliquez!</string>
+
+    <string name="input_invalide_msg">Entrée invalide.!!!</string>
+
+    <string name="phone_check_title">Vérification du numéro de téléphone</string>
+    <string name="phone_check_code_label">Entrez le code envoyé au </string>
+    <string name="phone_check_code_label_exists">Désolé ce numéro est deja attribué: </string>
+    <string name="phone_check_resend_code">Renvoyez le code</string>
+    <string name="phone_check_resend_code_link">Renvoyez le code</string>
+    <string name="phone_check_change_phone">Je préfère changer de numéro!</string>
+    <string name="phone_check_change_phone_link">changer de numéro!</string>
+    <string name="phone_check_submit">Valider</string>
+
+    <string name="main_map_title">Carte</string>
+    <string name="main_objects_title">Objets</string>
+    <string name="main_reportings_title">Reportings</string>
+    <string name="main_profil_title">Profil</string>
+
+    <string name="error">Google Api key is missing.</string>
+
+    <string name="profil_objects">Objets</string>
+    <string name="profil_movings">Déplacements</string>
+    <string name="profil_models">Models</string>
+
+
+    <string name="mo_param_title">Titre</string>
+    <string name="mo_param_description">Description</string>
+    <string name="mo_param_tags">Tags</string>
+    <string name="mo_param_location">Localisation</string>
+    <string name="mo_param_alert_distance">Distance d\'alerte</string>
+
+    <string name="mo_param_making_user">Fabriquant</string>
+    <string name="mo_param_making_date">Date de fabrication</string>
+    <string name="mo_param_setup_user">Installeur</string>
+    <string name="mo_param_setup_date">Date d\'installation</string>
+    <string name="mo_param_authen_user">Certifieur</string>
+    <string name="mo_param_authen_date">Date de certification</string>
+
+    <string name="mo_param_class">Classe de signalisation</string>
+    <string name="mo_param_category">Catégorie</string>
+    <string name="mo_param_cat_speed_limit">Limitation de vitesse</string>
+    <string name="mo_param_cat_speed_limit_max_speed">Vitesse maximale</string>
+    <string name="mo_param_cat_signal">Signalisation</string>
+    <string name="mo_param_signal_max_duration">Durée de publication</string>
+    <string name="mo_param_cat_zone">Zone</string>
+    <string name="mo_param_zone_info">Informations</string>
+    <string name="mo_param_cat_organisation">Organisation</string>
+    <string name="mo_param_org_contacts">Contacts</string>
+    <string name="mo_param_org_hours">Horaires</string>
+
+    <string name="main_search_hint_map">Sur la carte</string>
+    <string name="main_search_hint_mo">Dans tes objets</string>
+    <string name="main_search_hint_reportings">Dans tes déplacements</string>
+
+    <string name="profil_param_mo_born">Lieu de naissance</string>
+    <string name="profil_param_mo_study">Etudie</string>
+    <string name="profil_param_mo_work">Travail</string>
+    <string name="profil_param_mo_residency">Résidence</string>
+    <string name="profil_param_first_name">Prénom</string>
+    <string name="profil_param_name">Nom</string>
+    <string name="profil_param_born_date">Date de naissance</string>
+    <string name="profil_param_phone">Téléphone</string>
+    <string name="profil_param_email">E-mail</string>
+    <string name="profil_param_password">Mot de passe</string>
+    <string name="profil_param_role">Role</string>
+    <string name="profil_param_change_account">Changer de compte</string>
+    <string name="profil_param_logout">Se déconnecter</string>
+
+    <string name="cmd_drop_section">Supprimer la section</string>
+    <string name="cmd_drop_spot">Supprimer le point</string>
+    <string name="cmd_update_horizon">mise à jour de l\'horizon</string>
+    <string name="cmd_setup_mo">Installer un Objet</string>
+    <string name="section_vertices">"Nombre de sommets : "</string>
+    <string name="section_length">"Extimation de la longueur : "</string>
+    <string name="section_area">"Extimation de la surface close : "</string>
+    <string name="spot_street">"Non de la Rue : "</string>
+    <string name="spot_way">"N° de la Voie : "</string>
+    <string name="spot_horizon">"Orientation de l\'Horizon : "</string>
+    <string name="spot_location">"Position : "</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_button_size">30sp</dimen>
+    <dimen name="text_tab_icone_size">15sp</dimen>
+    <dimen name="text_special_size">30sp</dimen>
+    <dimen name="text_input_size">20sp</dimen>
+    <dimen name="text_size">15sp</dimen>
+
+    <dimen name="shadow_dx">0dp</dimen>
+    <dimen name="shadow_dy">1dp</dimen>
+    <dimen name="shadow_rad">5dp</dimen>
+    <dimen name="shadow_padding">5dp</dimen>
+
+    <dimen name="text_outer_shadow_dx">0dp</dimen>
+    <dimen name="text_outer_shadow_dy">2dp</dimen>
+    <dimen name="text_outer_shadow_rad">2dp</dimen>
+
+    <dimen name="text_lt_outer_shadow_dx">0dp</dimen>
+    <dimen name="text_lt_outer_shadow_dy">1dp</dimen>
+    <dimen name="text_lt_outer_shadow_rad">1dp</dimen>
+
+
+
+    <dimen name="sys_screen_width">400dp</dimen>
+    <dimen name="sys_screen_height">760dp</dimen>
+
+    <dimen name="app_button_border_width">10dp</dimen>
+    <dimen name="app_button_little_border_width">2dp</dimen>
+    <dimen name="app_little_button_width">30dp</dimen>
+    <dimen name="app_little_button_height">30dp</dimen>
+    <dimen name="app_button_1_width">40dp</dimen>
+    <dimen name="app_button_1_height">40dp</dimen>
+    <dimen name="app_button_width">50dp</dimen>
+    <dimen name="app_button_height">50dp</dimen>
+    <dimen name="app_button_xl_width">60dp</dimen>
+    <dimen name="app_button_xl_height">60dp</dimen>
+    <dimen name="app_big_button_width">80dp</dimen>
+    <dimen name="app_big_button_height">80dp</dimen>
+
+    <dimen name="main_limit_speed_width">80dp</dimen>
+    <dimen name="main_limit_speed_height">80dp</dimen>
+
+
+    <dimen name="map_marker_width">30dp</dimen>
+    <dimen name="map_marker_height">30dp</dimen>
+
+    <dimen name="map_marker_checkpoint_width">10dp</dimen>
+    <dimen name="map_marker_checkpoint_height">10dp</dimen>
+
+    <dimen name="map_marker_plot_width">40dp</dimen>
+    <dimen name="map_marker_plot_height">40dp</dimen>
+
+    <dimen name="app_tools_height">150dp</dimen>
+</resources>

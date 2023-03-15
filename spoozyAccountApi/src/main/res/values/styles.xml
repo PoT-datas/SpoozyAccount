@@ -1,0 +1,175 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">false</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/transparent</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">false</item>
+    </style>
+
+    <style name="Transparent" parent="android:Theme.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+    <!-- Text Button -->
+    <style name="TextButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- Text Button -->
+    <style name="TextXPS">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorDark</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <!-- Text TextTabIcone -->
+    <style name="TextTabIcone">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_tab_icone_size</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">@string/font_fontFamily_medium</item>
+    </style>
+
+    <!-- Text Special -->
+    <style name="InputTextOnce">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/colorLight</item>
+        <item name="android:textSize">@dimen/text_special_size</item>
+        <item name="android:textCursorDrawable">@color/colorLight</item>
+        <item name="android:textColorHint">@color/colorGray</item>
+    </style>
+
+    <!-- Text Special -->
+    <style name="InputTextSpecial">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/colorDark</item>
+        <item name="android:textSize">@dimen/text_input_size</item>
+        <item name="android:backgroundTint" tools:ignore="NewApi">@color/colorLight</item>
+        <item name="android:textCursorDrawable">@color/colorGray</item>
+        <item name="android:textColorHint">@color/colorGray</item>
+    </style>
+
+    <!-- Text Special -->
+    <style name="InputTextXPIV">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- Text Special -->
+    <style name="TextSpecial">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/colorLight</item>
+        <item name="android:textSize">@dimen/text_special_size</item>
+    </style>
+
+    <!-- Text -->
+    <style name="Text">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorDark</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <!-- Text -->
+    <style name="TextOnDark">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorLight</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <!-- Text -->
+    <style name="TextXPLabel">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/colorLight</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextLimitSpeed">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorLight</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="TextSpeed">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorDark</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="TextLittle">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/colorDark</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="textTitle3">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="textLabel3">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#777777</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="text3">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="textTitle4">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="textLabel4">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#777777</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="text4">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TextTitleParamValue">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/colorLight</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="textNav">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="textLittleNav">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

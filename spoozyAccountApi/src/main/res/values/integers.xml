@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="system_dbclick_delay">200</integer>
+    <integer name="system_phonenumber_max_char">10</integer>
+    <integer name="system_resend_code_delay">0</integer>
+</resources>
